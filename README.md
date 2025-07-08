@@ -1,28 +1,47 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress do Zero à Nuvem
 
-👋 Seja bem-vindo(a)!
+Este é o projeto do curso "Cypress, do Zero à Nuvem" da Escola Talking About Testing.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Descrição
 
-## O que você vai aprender?
+Este projeto contém os exemplos e exercícios do curso, que ensina a utilizar o Cypress para testes automatizados de ponta a ponta.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+## Autor
+Paulo Henrique dos Santos  
+Email: paulohsantos281096@gmail.com
 
-## Vamos começar?
+## Dependências
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Para rodar os testes, você precisará das seguintes dependências:
 
-___
+- Node.js (versão recomendada: 14.x ou superior)
+- Cypress (versão 13.12.0)
 
-Este é um curso da **Escola Talking About Testing**.
+Você pode instalar as dependências executando o comando:
+
+```bash
+npm install
+
+```
+
+
+## Executando
+
+Para executar os testes sem a interface cypress
+
+```
+npm run test
+```
+
+Para Executar os testes na interface do cypress
+
+```
+npm run cy:open
+```
+
+
+Para Executar os testes na interface do cypress mobile
+
+```
+npm run cy:open:mobile
+```
